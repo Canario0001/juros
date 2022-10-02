@@ -152,7 +152,7 @@ def main():
     elif choice == 1: pass
     else: print('Opção inválida. Operação cancelada.')
 
-    print('\nObrigado por usar!\nFeito por: Cristian (aka Canário)')
+    print('\nObrigado por usar!\nFeito por: Canário')
 
 if __name__ == '__main__':
     main()
