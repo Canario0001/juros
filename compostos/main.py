@@ -132,7 +132,7 @@ def main():
 
         else: print('Digite uma informação válida!')
 
-    resultado = glinda(j, c, i, t, m)
+    resultado = taiga(j, c, i, t, m)
     print('\n')
     header(30)
     print('  Resultados')
