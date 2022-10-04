@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-from math import log
+from math import log10
 def header(num):
     print('┅'*num)
 
@@ -16,7 +16,7 @@ def taxa(m, c, t):
     return ((m ** (1 / t)) / (c ** (1/t))) - 1
 
 def tempo(m, c, i): 
-    return log(m / c) / log(1 + i)
+    return log10(m / c) / log10(1 + i)
 
 def lista():
     print('\n\nA lista estará da seguinte maneira:\nabreviação: o que significa\nDigite no formato abreviação:valor\n')
